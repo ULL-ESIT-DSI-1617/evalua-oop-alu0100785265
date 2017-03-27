@@ -1,6 +1,6 @@
 
 var dp = require("./lyingoutatable.js");
-var dt = require("./textcell.js");
+var dt = require("./src/textcell.js");
 var TextCell = dt.TextCell;
 var drawTable = dp.drawTable;
 
