@@ -30,8 +30,8 @@ describe("drawIt", function() {
     drawIt(MOUNTAINS).should.equal(expected);
   })
 });
-
-var TextCell = dt.TextCell;
+var dp = require('../src/textcell.js');
+var TextCell = dp.TextCell;
 var drawTable = dt.drawTable;
 
 function checkerboard() {
