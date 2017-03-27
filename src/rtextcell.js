@@ -1,7 +1,9 @@
+'use strict'
 // RTextCell
 
-
-import TextCell from "./textcell.js";
+var dp = require('./textcell.js');
+var TextCell = dp.TextCell;
+//import TextCell from "./textcell.js";
 class RTextCell extends TextCell{
     constructor(text){
         super(text);

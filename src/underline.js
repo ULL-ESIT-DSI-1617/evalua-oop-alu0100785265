@@ -1,3 +1,4 @@
+'use strict'
 // UnderlinedCell Class
 /*function UnderlinedCell(inner) {
   this.inner = inner;

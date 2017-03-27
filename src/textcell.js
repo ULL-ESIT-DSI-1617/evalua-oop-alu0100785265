@@ -1,4 +1,4 @@
-
+'use strict'
 /*
 function TextCell(text) {
   this.text = text.split("\n");
@@ -27,7 +27,7 @@ TextCell.prototype.minWidth = function() {
 };*/
   minWidth(){
       return this.text.reduce((width, line) => {
-             Math.max(width, line.length);
+            return Math.max(width, line.length);
   }, 0);
   }
       
@@ -68,7 +68,6 @@ TextCell.prototype.draw = function(width, height) {
         
     }
 }
-//export default TextCell;
 
 module.exports = {
   TextCell: TextCell

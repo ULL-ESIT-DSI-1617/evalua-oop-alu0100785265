@@ -1,6 +1,8 @@
-var dt = require("./lyingoutatable.js");
+
+var dp = require("./lyingoutatable.js");
+var dt = require("./textcell.js");
 var TextCell = dt.TextCell;
-var drawTable = dt.drawTable;
+var drawTable = dp.drawTable;
 
 var rows = [0, 5].range( 
   (i) =>  [0, 5].range( 
